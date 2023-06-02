@@ -84,97 +84,64 @@
 
  .bg{
     width: 100%;
-    height: 100%;
-    opacity: 0.80;
+    height: 90%;
+    opacity: 0.80vh;
  }
 
- .bg2{
-  width: 100%;
-  height: 100%;
-  opacity: 0.85;
-}
+ .link-sem-sublinhado {
+    text-decoration: none;
+  }
 
 .texto{
   font-family: 'Montserrat';
   font-size: 7vh;
   color: white;
   position: absolute;
-  top: 120vh;
+  top: 100vh;
   left: 87vh;
   font-weight: bold;
-}
-
-.texto2{
-  position: absolute;
-  font-family: 'Montserrat';
-  color: white;
-  font-size: 8vh;
-  left:10vh;
-  top:170vh;
-  width: 60vh;
+ 
+      text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,      
+                1px -1px 0px #000,    
+                1px 0px 0px #000;
 }
 
 .container{
-  width: 100%;
-  height: 100vh;
-}
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0vh;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25vh;
 
-.logao{
-  position: absolute;
-  width: 82vh;
-  height: 82vh;
-  left: 25vh;
-}
+    
+  }
+  
+  
+  .feature {
+    width: calc(33.33% - 2vh);
+    margin-bottom: 2vh;
+    background-color: #fff;
+    border-radius: 2vh;
+    padding: 2vh;
+    box-shadow: 0 2px 5px #012A5D;
+    transition: all 0.3s ease;
+    padding-left: 5vh;
+  }
+  
+  
+  
+  .feature:hover {
+    transform: translateY(-1vh);
+    box-shadow: 0 4px 10px #012A5D;
+  }
 
-
-.in2{
-  position: absolute;
-  font-family: 'Montserrat';
-  color: #004AAD;
-  left: 103.5vh;
-  top: 280vh;
-  font-size: 15vh;
- }
-
- .sight2{
-  position: absolute;
-  font-family: 'Montserrat';
-  color: black;
-  left: 120vh;
-  top: 280vh;
-  font-size: 15vh;
-
- }
-
- .tech2{
-  position: absolute;
-  font-family: 'Montserrat';
-  color: black;
-  left: 123vh;
-  top: 296.5vh;
-  font-size: 3vh;
-  letter-spacing: 0.2vh;
- }
-
-
- button, input[type="button"] {
-  padding: 3vh 10vh;
-  background-color: #0B274B;
-  color: #fff;
-  border: none;
-  border-radius: 3vh;
-  cursor: pointer;
-  position: absolute;
-  left: 55vh;
-  top: 325vh;
-  font-family: 'Montserrat';
-  font-size: 5vh;
-}
-
-button:hover, input[type="button"]:hover {
-  background-color: #0056b3;
-}
-
-.link-sem-sublinhado {
-  text-decoration: none;
-}
+  .grafico{
+    width: 45vh;
+    height: 45vh;
+    padding-right: 37vh;
+  }
+  
